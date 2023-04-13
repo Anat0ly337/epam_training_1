@@ -1,0 +1,1 @@
+package com.epam.jmp.dto;import java.time.LocalDate;public record Subscription(String cardNumber, LocalDate startDate) {    @Override    public String toString() {        return "Subscription{" +            "cardNumber='" + cardNumber + '\'' +            ", startDate=" + startDate +            '}';    }}
